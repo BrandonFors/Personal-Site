@@ -51,6 +51,8 @@ p{
 .header{
     display: flex;
     justify-content: flex-start;
+    position: fixed;
+    width: 100vw;
 }
 .navbar{
     background-color: #7A1CAC;
@@ -63,6 +65,7 @@ p{
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    
 }
 .headerItem {
     color: #EBD3F8; 
@@ -78,6 +81,7 @@ p{
     font-style: normal;
 }
 .page-titles{
+    margin-top: 100px;
     justify-content: center;
     flex-direction: column;
 
@@ -111,4 +115,26 @@ p{
     color: #eaf6f6;
     font-size: 0.75rem;
     padding: 20px 0;
+}
+.med-img{
+    
+    /* width: 400px; */
+    width: 100%;
+    height: auto;
+    min-width: 250px;
+}
+.table{
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: 1fr 2fr;
+    
+
+ 
+}
+.social-link{
+    color:#ffffff;
+    text-decoration: none;
+}
+.social-link:hover{
+    color:aqua
 }
