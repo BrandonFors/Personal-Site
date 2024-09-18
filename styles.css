@@ -138,3 +138,7 @@ p{
 .social-link:hover{
     color:aqua
 }
+.pdf-viewer{
+    width: 100%;
+    height: 1000px;
+}
