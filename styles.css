@@ -150,3 +150,26 @@ hr {
     margin: 25px auto;
     
 }
+.btn-container{
+    margin: 50px;
+}
+.btn {
+    background: #6527BE;
+    border-radius: 8px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width:60px;
+    transition: all 0.3s;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0), 0 0 0 0 rgba(0,0,0,0);
+    
+  
+  }
+  .btn:hover{
+    margin-top: 50px;
+    color:black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.4);
+  
+  }
